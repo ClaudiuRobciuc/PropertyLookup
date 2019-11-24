@@ -11,6 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/listProperties', [
+    'uses' => 'PropertyController@getAllProperties',
+]);
+
+Route::get('/listProperty/{id}', [
+    'uses' => 'PropertyController@getProperty',
+]);
+
+Route::post('/addProperty', [
+    'uses' => 'PropertyController@addProperty',
+]);
