@@ -35,5 +35,5 @@ Once the containers are up and running, you can test it out by accessing http://
     d. `postCode` <br/>
 4. Have fun.
 
-
-
+### Example Response
+![alt text](https://github.com/ClaudiuRobciuc/PropertyLookup/blob/master/Example.PNG)
