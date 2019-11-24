@@ -28,6 +28,7 @@ Once the containers are up and running, you can test it out by accessing http://
 1. GET `/listProperties`. This will display all the entries from the properties table, with the geolocation attached to it.
 2. GET `/listProperty/{id}`. This will display a specific property, with the geolocation aattached to it.
 3. POST `/addProperty`. This will add a property. There are 4 accepted fields these being:
+    <br/>
     a. `addressLine1` (required *) <br/>
     b. `addressLine2`, <br/>
     c. `city`, <br/>
